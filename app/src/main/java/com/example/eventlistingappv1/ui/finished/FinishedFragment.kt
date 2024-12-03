@@ -90,4 +90,8 @@ class FinishedFragment : Fragment() {
         private const val ACTIVE = 0
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

@@ -90,4 +90,9 @@ class UpcomingFragment : Fragment() {
         private const val TAG = "UpcomingFragment"
         private const val ACTIVE = 1
     }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }
