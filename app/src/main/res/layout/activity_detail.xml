@@ -22,6 +22,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:src="@tools:sample/backgrounds/scenic" />
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_item_photo_detail"
+            app:layout_constraintEnd_toEndOf="@id/tv_item_photo_detail"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-24dp"
+            android:contentDescription="@string/title_favorite"/>
+
         <TextView
             android:id="@+id/tv_item_name_detail"
             android:layout_width="0dp"
