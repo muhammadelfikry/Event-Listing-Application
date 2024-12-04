@@ -8,4 +8,6 @@
     <string name="remaining_quota">Remaining Quota: %1$s</string>
     <string name="title_favorite">Favorite</string>
     <string name="title_empty_favorites">No Favorite Events</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="title_setting">Setting</string>
 </resources>

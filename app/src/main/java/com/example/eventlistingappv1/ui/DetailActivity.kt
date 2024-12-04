@@ -37,7 +37,7 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun obtainViewModel(activity: AppCompatActivity): DetailViewModel {
-        val factory = ViewModelFactory.getInstace(activity.application)
+        val factory = ViewModelFactory.getInstance(activity.application)
         return ViewModelProvider(activity, factory).get(DetailViewModel::class.java)
     }
     private fun getEventDetail() {
